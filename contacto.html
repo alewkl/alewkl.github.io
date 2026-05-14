@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Portfolio 2025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">PORTFOLIO_2025</div>
+            <div class="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="acerca-de.html">Acerca De</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+            <div class="nav-location">📍 Milano / Torino</div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="section-marker fade-in-scroll">[CONTACTO]</div>
+        <h1 class="section-title fade-in-scroll">Hablemos</h1>
+
+        <div class="contact-grid fade-in-scroll">
+            <div class="contact-card">
+                <h3>Email</h3>
+                <p>
+                    <a href="mailto:tuo.email@example.com">tuo.email@example.com</a>
+                </p>
+                <p>Respuesta en menos de 24 horas</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Teléfono</h3>
+                <p>+39 123 456 7890</p>
+                <p>Disponible de 9:00 a 18:00</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Redes Sociales</h3>
+                <p>
+                    <a href="#">LinkedIn</a><br>
+                    <a href="#">GitHub</a><br>
+                    <a href="#">Twitter</a>
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Ubicación</h3>
+                <p>Milano / Torino</p>
+                <p>Italia</p>
+                <p>Disponible para trabajo remoto o híbrido</p>
+            </div>
+        </div>
+
+        <h2 class="fade-in-scroll" style="font-size: 2rem; margin-bottom: 30px; color: var(--milan-grey);">Envíame un mensaje</h2>
+        <form class="contact-form fade-in-scroll">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Enviar Mensaje</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 — Progettato e sviluppato con attenzione ai dettagli</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
